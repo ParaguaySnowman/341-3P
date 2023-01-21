@@ -1,0 +1,14 @@
+GET http://localhost:8080/contacts
+
+GET http://localhost:8080/contacts/63c34e8899fb713bf9d3a167
+GET http://localhost:8080/contacts/63c34ec199fb713bf9d3a168
+GET http://localhost:8080/contacts/63c34f1b99fb713bf9d3a169
+
+// PRODUCTION Deploy ### 
+GET https://cse341-week2-personal-assingment.cse341-test.onrender.com/contacts 
+### 
+GET https://cse341-week2-personal-assingment.cse341-test.onrender.com/contacts/622023f642f9ab4cd6e060b2 
+### 
+GET https://cse341-week2-personal-assingment.cse341-test.onrender.com/contacts/622023f642f9ab4cd6e060b3 
+### 
+GET https://cse341-week2-personal-assingment.cse341-test.onrender.com/contacts/622023f642f9ab4cd6e060b4
