@@ -44,7 +44,7 @@ PUT https://cse-341-week-3-personal-assignment.onrender.com/contacts/63cc94b31bc
 content-type: application/json
 
 {
-"firstName":"Sarah", "lastName":"Birch", "email":"sarahB@gmail.com", "favoriteColor":"Yellow", "birthday":"06/12/20"
+"firstName":"Sarah", "lastName":"Birch", "email":"sarahB@gmail.com", "favoriteColor":"Green", "birthday":"06/12/20"
 }
 
 ### DELETE contact 
