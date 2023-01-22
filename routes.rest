@@ -1,14 +1,25 @@
+// LOCALHOST ### Get all contacts 
 GET http://localhost:8080/contacts
 
+### Get contact by id 
 GET http://localhost:8080/contacts/63c34e8899fb713bf9d3a167
-GET http://localhost:8080/contacts/63c34ec199fb713bf9d3a168
-GET http://localhost:8080/contacts/63c34f1b99fb713bf9d3a169
 
-// PRODUCTION Deploy ### 
-GET https://cse341-week2-personal-assingment.cse341-test.onrender.com/contacts 
-### 
-GET https://cse341-week2-personal-assingment.cse341-test.onrender.com/contacts/622023f642f9ab4cd6e060b2 
-### 
-GET https://cse341-week2-personal-assingment.cse341-test.onrender.com/contacts/622023f642f9ab4cd6e060b3 
-### 
-GET https://cse341-week2-personal-assingment.cse341-test.onrender.com/contacts/622023f642f9ab4cd6e060b4
+### Create contact 
+POST http://localhost:8080/contacts HTTP/1.1 
+content-type: application/json
+
+{
+"firstName":"Ashley", "lastName":"Weaver", "email":"aWeaver@test.com", "favoriteColor":"Brown", "birthday":"06/19/2000"
+}
+
+### PUT contact 
+PUT http://localhost:8080/contacts/63cc8a2aa0813b794a241103 HTTP/1.1 
+content-type: application/json
+
+{
+"firstName":"Sarah", "lastName":"Birch", "email":"test@gmail.com", "favoriteColor":"Green", "birthday":"12/12/20"
+} 
+
+### DELETE contact 
+DELETE http://localhost:8080/contacts/63cc8a2aa0813b794a241103 HTTP/1.1
+
