@@ -1,4 +1,9 @@
-// LOCALHOST ### Get all contacts 
+// Note that Object ID's will need to be updated each time object is deleted and created again.
+
+#######################################################################
+// LOCALHOST
+
+ ### Get all contacts 
 GET http://localhost:8080/contacts
 
 ### Get contact by id 
@@ -23,6 +28,8 @@ content-type: application/json
 ### DELETE contact 
 DELETE http://localhost:8080/contacts/63cca83a83238a7955884d91 HTTP/1.1
 
+
+###############################################################################################################################
 // PRODUCTION Deploy
 
 ### Get all contacts 
@@ -40,7 +47,7 @@ content-type: application/json
 }
 
 ### PUT contact 
-PUT https://cse-341-week-3-personal-assignment.onrender.com/contacts/63cca83a83238a7955884d91 HTTP/1.1
+PUT https://cse-341-week-3-personal-assignment.onrender.com/contacts/63ccabbb88b1477ee0096496 HTTP/1.1
 content-type: application/json
 
 {
@@ -48,4 +55,4 @@ content-type: application/json
 }
 
 ### DELETE contact 
-DELETE https://cse-341-week-3-personal-assignment.onrender.com/contacts/63cca83a83238a7955884d91 HTTP/1.1
+DELETE https://cse-341-week-3-personal-assignment.onrender.com/contacts/63ccabbb88b1477ee0096496 HTTP/1.1
